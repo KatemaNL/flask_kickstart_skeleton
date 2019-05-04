@@ -26,9 +26,11 @@ The correct working of this configuration is not guaranteed in any way. Use enti
 3. You can quit the webserver by pressing CTRL+C from the terminal.
 
 # Example features:
+## A page with text from a string
 - Rendering a page from string: URL: http://127.0.0.1:5000/ Configured in the function `hello()` in `myapp/views.py`
 
 Note: Find the `Hello!` log statement in `log/info.log`. It is triggered from the `hello()` function. Logging is already configured for you!
 See the `conf/logging.yaml` file to find out more. Do you only want INFO messages? Change the root level to INFO instead of DEBUG at the end of the `logging.yaml` file.
-  
+
+## Static page  
 - Rendering a static page from string. URL: http://127.0.0.1:5000/ Configured in the function `static_page()` in `myapp/views.py`
