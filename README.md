@@ -16,8 +16,7 @@ The correct working of this configuration is not guaranteed in any way. Use enti
 # Install
 1. Open a terminal and navigate to a directory you want to install this project in as a new directory. (f.i. ~)
 2. Clone this Git repository into the current directory: `https://github.com/KatemaNL/flask_kickstart_skeleton.git`
-3. Make sure you have to correct permissions on this new directory: `sudo chown -R <your_user>:<your_user> flask_kickstart_skeleton` 
-Note: Be aware we are running the webserver under your current user which is unsafe in a production environment.
+3. Make sure you have to correct permissions on this new directory: `sudo chown -R <your_user>:<your_user> flask_kickstart_skeleton` **Note: Be aware we are running the webserver under your current user which is unsafe in a production environment.**
 4. Create a virtual environment: `cd flask_kickstart_skeleton/bin` and run the script: `./create_venv_dev.sh`
 
 # Run
