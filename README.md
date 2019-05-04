@@ -25,3 +25,7 @@ The correct working of this configuration is not guaranteed in any way. Use enti
 1. Run the application (from the `flask_kickstart_skeleton/bin` directory) : `./run_dev.sh`
 2. Open a browser and navigate to: http://127.0.0.1:5000/
 3. You can quit the webserver by pressing CTRL+C from the terminal.
+
+# Example features:
+1. Rendering a page from string: URL: http://127.0.0.1:5000/ Configured in the function `hello()` in `myapp/views.py` 
+2. Rendering a static page from string. URL: http://127.0.0.1:5000/ Configured in the function `static_page()` in `myapp/views.py`

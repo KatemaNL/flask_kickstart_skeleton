@@ -12,6 +12,6 @@ def hello():
     render_text = 'Hello World!'
     return render_text
 
-@myapp.route('/basic_template')
-def basic_template():
-    return render_template('basic_template.html', title='Home')
+@myapp.route('/static_page')
+def static_page():
+    return render_template('static_page.html', title='Static Page')
