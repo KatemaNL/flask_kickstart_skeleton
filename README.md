@@ -33,4 +33,4 @@ Note: Find the `Hello!` log statement in `log/info.log`. It is triggered from th
 See the `conf/logging.yaml` file to find out more. Do you only want INFO messages? Change the root level to INFO instead of DEBUG at the end of the `logging.yaml` file.
 
 ## Static page  
-- Rendering a static page from string. URL: http://127.0.0.1:5000/ Configured in the function `static_page()` in `myapp/views.py`
+- Rendering a static page from a (static) HTML template. URL: http://127.0.0.1:5000/ Configured in the function `static_page()` in `myapp/views.py`
