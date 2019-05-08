@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My App - Dynamic Table Page</title>
+</head>
+
+<body>
+
+    <h1>Static header</h1>
+    <p>Static text</p>
+
+<div>
+    <p>A table:</p>
+    <table>
+        <thead>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in rows %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+
+</html>
