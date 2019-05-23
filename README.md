@@ -36,4 +36,9 @@ See the `conf/logging.yaml` file to find out more. Do you only want INFO message
 - Rendering a static page from a (static) HTML template. URL: http://127.0.0.1:5000/ Configured in the function `static_page()` in `myapp/views.py`
 
 ## Dynamic page with table
-- Rendering a dynamic page with python data transformed into HTML. URL: http://127.0.0.1:5000/dynamic_table_page  
+- Rendering a dynamic page with python data transformed into HTML. URL: http://127.0.0.1:5000/dynamic_table_page
+
+## Configuration
+- The app can be configured from the conf/myapp.ini file. 
+- The config can be used throughout the app by importing the config object: `from conf.config import config` and accessing its values: `config.getboolean(section='settings_group1', option='group1_option1')`
+- The current settings can be viewed from: http://127.0.0.1:5000/config

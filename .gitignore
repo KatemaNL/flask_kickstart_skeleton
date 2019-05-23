@@ -2,3 +2,5 @@
 instance
 venv
 __pycache__
+
+conf/
